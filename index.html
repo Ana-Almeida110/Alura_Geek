@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="/style.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header>         
+        <div class="logo">
+            <img src="/imagem/coracao.png" alt="coração 16bits">
+            <h1>Alura Geek</h1>
+        </div>       
+    </header>
+    <main>        
+        <div class="interface">                  
+            <section class="meus-produtos"> 
+                <h1 id="titulo">MEUS PRODUTOS:</h1>                                      
+                <div data-product class="container-produto">  
+
+                </div>
+            </section>
+        </div>
+
+            <section class="adicionar-produto">
+                <div class="formulario">                    
+                    <h1 class="titulo_form">ADICIONAR PRODUTO:</h1>
+                    <form data-form>
+                        <div class="conteudo-formulario">
+                            <input type="text" name="" id="nome" placeholder="nome..." maxlength="18" required data-nome>
+                            <input type="text" name="" id="valor" placeholder="Valor..." maxlength="12" required data-valor>
+                            <input type="url" name="" id="imagem" placeholder="imagem..." required data-imagem>
+                        </div>
+                        <div class="button">
+                            <div class="btn-guardar"><input type="submit"value="Guardar"></div>
+                            <div class="btn-limpar"> <input type="reset" value="Limpar"></div>
+                        </div>                                
+                    </form>                        
+                </div>
+            </section>         
+        
+    </main>
+    <footer>
+        <div class="interface">
+            <div class="flex">
+                <div class="logo">
+                    <img src="/imagem/coracao.png">
+                    <h1>Alura Geek</h1>
+                </div>
+                <div class="infos">
+                    <p>Desenvolvido por Ana</p> 
+                    <p>Alura Latam- 2024</p>
+                </div>
+            </div>
+        </div><!--fim interface-->
+    </footer>
+    <!--script src="/js/conexaoAPI.js" type="module"></script-->
+    <script src="/js/main.js" type="module"></script>     
+</body>
+</html>

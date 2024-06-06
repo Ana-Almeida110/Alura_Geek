@@ -1,0 +1,58 @@
+{
+  "produtos": [
+    {
+      "id": "7838",
+      "nome": "Ellie",
+      "valor": "100.00",
+      "imagem": "https://www.altoastral.com.br/media/uploads/legacy/2016/06/ellie.jpg"
+    },
+    {
+      "id": "5dd9",
+      "nome": "Manny",
+      "valor": "110.00",
+      "imagem": "https://andresacristinalourenco.wordpress.com/wp-content/uploads/2014/09/many.png?w=646"
+    },
+    {
+      "id": "49e3",
+      "nome": "Sid",
+      "valor": "110.00",
+      "imagem": "https://i.pinimg.com/564x/c1/5d/36/c15d36bfc480bb71f27c59b13146cc91.jpg"
+    },
+    {
+      "id": "5a43",
+      "nome": "Scratte",
+      "valor": "90.00",
+      "imagem": "https://i.pinimg.com/564x/e9/d2/ce/e9d2cee74fa52691bd3f0fa28776bc98.jpg"
+    },
+    {
+      "id": "2096",
+      "nome": "Diego",
+      "valor": "110.00",
+      "imagem": "https://i.pinimg.com/564x/c0/80/0d/c0800d46682cde42cfae87cd750d3207.jpg"
+    },
+    {
+      "id": "4d4c",
+      "nome": "Amora",
+      "valor": "90.00",
+      "imagem": "https://i.pinimg.com/564x/32/a0/00/32a0005e3bc0f4dd3b5c4543d08fad86.jpg"
+    },
+    {
+      "id": "416c",
+      "nome": "Shira",
+      "valor": "90.00",
+      "imagem": "https://i.pinimg.com/564x/71/6b/0a/716b0ac9e90ca9e3dd1e462b4e96bcff.jpg"
+    },
+    {
+      "id": "779e",
+      "nome": "Broke",
+      "valor": "90.00",
+      "imagem": "https://www.altoastral.com.br/media/uploads/legacy/2016/06/brooke.jpg"
+    },
+    {
+      "id": "4559",
+      "nome": "Scratt",
+      "valor": "100.00",
+      "imagem": "https://i.pinimg.com/564x/be/ea/ef/beeaefd150ffe3ba08ba0efa00880a1f.jpg"
+    }
+  ]
+}
