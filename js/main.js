@@ -38,7 +38,7 @@ function criarProduto(nome, valor, imagem, id) {
 const renderizar = async () => {
     try {
         const produtos = await produtos_serv.listarProdutos();
-        if (produtos) {
+        if (produtos && Array.isArray(produtos)) {
             produtos.forEach(produto => {
                 produtosContainer.appendChild(
                     criarProduto(
@@ -50,7 +50,7 @@ const renderizar = async () => {
             });
        }
     } catch (error) { 
-        console.error(error);
+        console.error("Erro ao listar produtos:", error);
     }
 }; 
 
