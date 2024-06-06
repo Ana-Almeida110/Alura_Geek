@@ -3,13 +3,13 @@ const baseURL = window.location.hostname.includes("localhost")?
     "/database/db.json";
 
 const listarProdutos = () => {
-    return fetch("http://localhost:3000/produtos")
+    return fetch("http://localhost:3000")
         .then(response => response.json())
         .catch((err) => console.log(err));
 };
 
 const criarElemento = (nome, valor, imagem) => {
-    return fetch("http://localhost:3000/produtos", {
+    return fetch("http://localhost:3000", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
