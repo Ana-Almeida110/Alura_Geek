@@ -1,3 +1,7 @@
+const baseURL = window.location.hostname.includes("localhost")?
+    "http://localhost:3000":
+    "/database/db.json";
+
 const listarProdutos = () => {
     return fetch("http://localhost:3000/produtos")
         .then(response => response.json())
